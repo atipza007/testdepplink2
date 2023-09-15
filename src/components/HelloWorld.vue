@@ -8,7 +8,11 @@ defineProps({
 const count = ref(0)
 function autourl() {
   // console.log("ggggg");
-  window.open("https://server-deeplink-ausi4.vercel.app/","_system");
+  console.log(navigator.userAgent);
+  // if(navigator.userAgent.includes("facebook")){
+       window.location.href = "https://server-deeplink-ausi4.vercel.app/";
+  //  }
+  // window.open("https://server-deeplink-ausi4.vercel.app/","_self");
 }
 autourl()
 
