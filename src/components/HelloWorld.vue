@@ -7,8 +7,8 @@ defineProps({
 
 const count = ref(0)
 function autourl() {
-  console.log("ggggg");
-  window.open("https://server-deeplink-ausi4.vercel.app/");
+  // console.log("ggggg");
+  window.open("https://server-deeplink-ausi4.vercel.app/","_system");
 }
 autourl()
 
